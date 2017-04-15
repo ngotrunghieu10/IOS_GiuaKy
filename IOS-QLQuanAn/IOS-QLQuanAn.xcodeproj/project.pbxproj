@@ -12,6 +12,7 @@
 		1C46DB121EA1DDB4007C93EA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1C46DB101EA1DDB4007C93EA /* Main.storyboard */; };
 		1C46DB141EA1DDB4007C93EA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1C46DB131EA1DDB4007C93EA /* Assets.xcassets */; };
 		1C46DB171EA1DDB4007C93EA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1C46DB151EA1DDB4007C93EA /* LaunchScreen.storyboard */; };
+		1C46DB201EA1F12C007C93EA /* QLQA.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = 1C46DB1F1EA1F12C007C93EA /* QLQA.sqlite */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		1C46DB131EA1DDB4007C93EA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1C46DB161EA1DDB4007C93EA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1C46DB181EA1DDB4007C93EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1C46DB1F1EA1F12C007C93EA /* QLQA.sqlite */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = QLQA.sqlite; path = Database/QLQA.sqlite; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 		1C46DB0B1EA1DDB4007C93EA /* IOS-QLQuanAn */ = {
 			isa = PBXGroup;
 			children = (
+				1C46DB1E1EA1ED08007C93EA /* Database */,
 				1C46DB0C1EA1DDB4007C93EA /* AppDelegate.swift */,
 				1C46DB0E1EA1DDB4007C93EA /* ViewController.swift */,
 				1C46DB101EA1DDB4007C93EA /* Main.storyboard */,
@@ -62,6 +65,14 @@
 				1C46DB181EA1DDB4007C93EA /* Info.plist */,
 			);
 			path = "IOS-QLQuanAn";
+			sourceTree = "<group>";
+		};
+		1C46DB1E1EA1ED08007C93EA /* Database */ = {
+			isa = PBXGroup;
+			children = (
+				1C46DB1F1EA1F12C007C93EA /* QLQA.sqlite */,
+			);
+			name = Database;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,6 +136,7 @@
 			files = (
 				1C46DB171EA1DDB4007C93EA /* LaunchScreen.storyboard in Resources */,
 				1C46DB141EA1DDB4007C93EA /* Assets.xcassets in Resources */,
+				1C46DB201EA1F12C007C93EA /* QLQA.sqlite in Resources */,
 				1C46DB121EA1DDB4007C93EA /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -297,6 +309,7 @@
 				1C46DB1D1EA1DDB4007C93EA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
